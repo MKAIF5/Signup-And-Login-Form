@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto condensed", sans-serif;
+}
+
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 90px;
+    color: white;
+}
+
+nav h1 {
+    padding-left: 90px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding-left: 130px;
+    font-size: 15px;
+}
+
+nav ul li {
+    width: 110px;
+    text-decoration: none;
+    color: white;
+}
+nav .buttons{
+    display: flex;
+    gap: 30px;
+    position: relative;
+    left: 5rem;
+}
+nav button {
+    /* margin-left: 150px; */
+    width: 100px;
+    height: 35px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D&w=1000&q=80');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.text-main {
+    margin-left: 30px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text-main h1 {
+    font-size: 43px;
+    height: 70px;
+    font-weight: 500;
+}
+
+.text-main img {
+    width: 30%;
+    height: 10%;
+}
