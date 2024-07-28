@@ -5,7 +5,6 @@
     font-family: "Roboto condensed", sans-serif;
 }
 
-
 nav {
     width: 100%;
     display: flex;
@@ -75,4 +74,9 @@ nav button {
 .text-main img {
     width: 30%;
     height: 10%;
+}
+
+nav button:hover{
+    background: white;
+    color: black;
 }
