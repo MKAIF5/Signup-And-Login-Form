@@ -84,6 +84,35 @@ body {
     transform: translateY(-4px);
 }
 
+.back-button {
+    background: #f8cdda;
+    padding: 10px 20px;
+    color: #1d2b64;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.3s;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+  }
+  
+  .back-button:hover {
+    background: #f8a5c2;
+    transform: translateY(-2px);
+  }
+  
+  .back-button:active {
+    background: #f8a5c2;
+    transform: translateY(0);
+  }
+  
+  .back-arrow {
+    font-size: 20px;
+    margin-right: 8px;
+  }
+
 @keyframes fadeInUp {
     from {
         opacity: 0;

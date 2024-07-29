@@ -7,23 +7,27 @@
     <link rel="stylesheet" href="../styles/signup.css">
 </head>
 <body>
+    <a href="../index.html" class="back-button">
+        <span class="back-arrow">&larr;</span> Back
+    </a>
     <div class="container">
         <div class="signup-box">
             <h2>Sign Up</h2>
             <form id="signup-form">
                 <div class="textbox">
-                    <input type="text" placeholder="Full Name" required>
+                    <input type="text" id="fullname" placeholder="Full Name" required>
                 </div>
                 <div class="textbox">
-                    <input type="email" placeholder="Email" required>
+                    <input  id="email" placeholder="Email">
                 </div>
                 <div class="textbox">
-                    <input type="password" placeholder="Password" required>
+                    <input type="password" id="password" placeholder="Password" required>
                 </div>
-                <input type="submit" class="btn" value="Sign Up">
+                <input id="btn" type="submit" class="btn" value="Sign Up">
             </form>
         </div>
     </div>
-    <script src="scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="module" src="../scripts/signup.js"></script>
 </body>
 </html>

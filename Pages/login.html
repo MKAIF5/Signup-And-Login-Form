@@ -7,22 +7,25 @@
     <link rel="stylesheet" href="../styles/login.css">
 </head>
 <body>
+    <a href="../index.html" class="back-button">
+        <span class="back-arrow">&larr;</span> Back
+    </a>
     <div class="container">
         <div class="login-box">
             <h2>Login</h2>
             <form id="login-form">
                 <div class="textbox">
-                    <input type="text" placeholder="Username" required>
+                    <input type="text" id="email" placeholder="Username" required>
                 </div>
                 <div class="textbox">
-                    <input type="password" placeholder="Password" required>
+                    <input type="password" id="password" placeholder="Password" required>
                 </div>
-                <input type="submit" class="btn" value="Login">
+                <input id="btn" type="submit" class="btn" value="Login">
             </form>
         </div>
     </div>
-    <script src="../scripts/login.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="module" src="../scripts/login.js"></script>
 </body>
 </html>
-
 </html>
