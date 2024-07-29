@@ -27,6 +27,7 @@ form.addEventListener("submit", async (event) => {
             icon: "error",
             footer: "Please check your credentials"
           });
+        button.value = "Login"
         console.error("Error creating user:", error);
     }
 });

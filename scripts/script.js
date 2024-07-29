@@ -1,17 +1,12 @@
-// Type js liabrary use 
-const typed = new Typed('#element', {
-    strings: ['WEB DESIGNER' , 'FRONTEND DEVELPOR' ,'MERN DEVELPOR' ],
-    typeSpeed: 50,
-});
+import { auth, onAuthStateChanged } from "./firebase.js"
 
 // firebase work
 
-import { auth, onAuthStateChanged } from "./firebase.js"
 
 onAuthStateChanged(auth, (user) => {
     if (user) {
-      window.location.href = "./dashboard.html"
+      window.location.href = "../pages/dashboard.html"
     } else {
-       window.location.href = "./login.html"
+       window.location.href = "../pages/login.html"
     }
  });
